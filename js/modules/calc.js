@@ -1,5 +1,3 @@
- //*****Calculator*****
-
 function calculator() {
     const result = document.querySelector('.calculating__result span');
     let sex, height, weight, age, ratio;
@@ -111,4 +109,4 @@ function calculator() {
     getDynamicInformation('#age');
 }
 
-module.exports = calculator;
+export default calculator;
